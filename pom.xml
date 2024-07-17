@@ -42,6 +42,12 @@
             <artifactId>parsson</artifactId>
             <version>1.1.6</version>
         </dependency>
+        <!--    Yasson Dependency(Serialization and Deserialization)    -->
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>yasson</artifactId>
+            <version>3.0.3</version>
+        </dependency>
     </dependencies>
 
     <build>
