@@ -1,4 +1,4 @@
-                                                                            Serialization and Deserialization
+                                                          Serialization and Deserialization
 What is Serialization?
 Serialization is the process of converting an object or data structure into a format that can be easily stored or transmitted. This format can be a binary format, a text format 
 (such as JSON or XML), or any other suitable format. The primary purpose of serialization is to enable the storage of complex data structures in a way that they can be later 
