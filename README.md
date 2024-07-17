@@ -45,15 +45,15 @@ Benefits of Serialization and Deserialization
 •	Simplified API Design
 •	Automation
 
-Explain the mechanism
+Explain the mechanism - 
 Java uses serialization and deserialization to convert objects to a format that can be easily stored or transmitted and then reconstructed later. This mechanism is particularly useful 
 when dealing with data storage, remote method invocation (RMI), and communication between different parts of a distributed system.
 
-Serialization
+Serialization - 
 Serialization is the process of converting an object into a stream of bytes that can be saved to a file, sent over a network, or stored in a database. In Java, this is achieved using 
 the Serializable interface and classes like ObjectOutputStream. We can easily do this using JSON.
 
-Deserialization
+Deserialization - 
 Deserialization is the process of reconstructing an object from a byte stream. In Java, this is done using classes like ObjectInputStream. We can easily do this using JSON.
 
 *If using json, yasson dependency must be added.
