@@ -19,6 +19,11 @@ public class PersonController extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
+        //Serializable
+        PersonDTO personDTO = new PersonDTO("Ramesh","23","ramesh4@gmail.com","0765826895");
+        Jsonb jsonb = JsonbBuilder.create();
+        String person = jsonb.toJson(personDTO);
+        response.getWriter().write(person.toString());
     }
 
     @Override
