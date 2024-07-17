@@ -72,7 +72,8 @@ Serialization
 Serialization is the process of converting an object into a stream of bytes that can be saved to a file, sent over a network, or stored in a database. In Java, this is achieved using 
 the Serializable interface and classes like ObjectOutputStream. We can easily do this using JSON.
 
-Deserialization - 
+Deserialization
+
 Deserialization is the process of reconstructing an object from a byte stream. In Java, this is done using classes like ObjectInputStream. We can easily do this using JSON.
 
 *If using json, yasson dependency must be added.
